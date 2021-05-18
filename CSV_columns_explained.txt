@@ -1,0 +1,43 @@
+name: Name of the component (Renamed for sake of confidentiality)
+
+apiNrInputs: Number of inputs of component 'name'
+
+equivOracleConfigSeed: Seed used for testing randomized algorithms 
+
+learnResult: outcome of learning experiment. can take two values {MAX_TIME_EXCEEDED_LEARN: maximum time of 1 hour exceeded before learning finished for the component, finished: learning process finished for the component}  
+
+learnedResultUsedModel: outcome of the learning experiment that is used to compare with reference model
+
+nrMembershipQueries: Total number of membership queries sent during learning phase of active learning
+
+nrMembershipSymbols: Total number of membership symbols used during learning phase of active learning
+
+nrEquivalenceQueries: Total number of equivalence queries sent by the learner to equivalence oracle 
+
+nrTestingQueries: Total number of testing queries sent during testing phase of active learning
+
+nrTestingSymbols: Total number of testing symbols used during testing phase of active learning
+
+nrExpectedMealyStates: Number of expected Mealy states of component 'name'
+
+nrMealyStates: Number of Mealy states learned
+
+compareResult: Result of comparison of learnResult with the reference model. can take two values {SAME, DIFFERENT} 
+
+durationMsLearningLearn: Time spent in learning phase of active learning process
+
+durationMsLearningTest: Time spent in testing phase of active learning process
+
+learnTimePerRound: Time spent in each round of learning phase of active learning process
+
+testTimePerRound: Time spent in each round of testing phase of active learning process
+
+nrMealyStatesPerRound: Number of Mealy states learned in each round
+
+nrMemberShipQueriesPerRound: Number of membership queries sent during each round of learning phase of active learning
+
+nrMemberShipSymbolsPerRound: Number of membership symbols used during each round of learning phase of active learning
+
+nrTestingQueriesPerRound: Number of testing queries sent during each round of testing phase of active learning
+
+nrTestingSymbolsPerRound: Number of testing symbols used during each round of testing phase of active learning
